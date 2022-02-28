@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Mariajuana Social Network</title>
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" />
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      background: url(https://images.unsplash.com/photo-1579118459333-b6c080d24b5c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
+      background-attachment: fixed;
+      background-size: cover;
+      background-position: center center;
+    }
+
+    body {
+      font-family: 'Courier New', Courier, monospace;
+      background: url(https://images.unsplash.com/photo-1579118459333-b6c080d24b5c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
+      background-attachment: fixed;
+      background-size: cover;
+      background-position: center center;
+      color: #fff;
+      line-height: 1.8;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    #container {
+      margin: 40px auto;
+      max-width: 400px;
+      padding: 25px;
+    }
+
+    .form-wrap {
+
+      padding: 15px 25px;
+      color: rgb(255, 255, 255);
+    }
+
+    .form-wrap h1,
+    .form-wrap p {
+
+      text-align: center;
+    }
+
+    .form-wrap .form-group {
+      margin-top: 12px;
+    }
+
+    .form-wrap .form-group label {
+
+      color: rgb(209, 208, 208);
+    }
+
+    .form-wrap .form-group input {
+      width: 95%;
+      padding: 7px;
+      border: #ddd 1px solid;
+      border-radius: 8px;
+    }
+
+    .form-wrap button {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      margin-top: 20px;
+      background: #46c1a2;
+      color: rgb(209,208,208);
+      cursor: pointer;
+    }
+
+    .form-wrap button:hover {
+      
+        background: #37a08e;
+    }
+
+    .form-wrap .bottom-text {
+    font-size: 13px;
+    margin-top:20px;
+    }
+
+    footer {
+      text-align: center;
+    }
+
+    footer a {
+      text-align: center;
+      margin-top:10px;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="container">
+    <div class="form-wrap">
+      <h1>Sign Up</h1>
+      <p>It's free and only takes a minute</p>
+      <form>
+        <div class="form-group">
+          <label for="first-name">First Name</label>
+          <input type="text" name="firstName" id="first-name" />
+        </div>
+        <div class="form-group">
+          <label for="last-name">Last Name</label>
+          <input type="text" name="lastName" id="last-name" />
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" />
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" name="password" id="password" />
+        </div>
+        <div class="form-group">
+          <label for="password2">Confirm Password</label>
+          <input type="password" name="pasword2" id="password2" />
+        </div>
+        <button type="submit" class="btn">Sign Up</button>
+        <p class="bottom-text">
+          By clicking the Sign Up button, you agree to our
+          Terms & Conditions and
+          Privacy Policy
+        </p>
+      </form>
+    </div>
+    <footer>
+      <p>Already have an account? <a href="/Login.html" target="_blank ">Login Here</a></p>
+    </footer>
+  </div>
+</body>
+
+</html>
